@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('background.jpg');
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#left{
+    /* border: 2px solid red; */
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 19px;
+}
+
+#left h3{
+    position: absolute;
+    top: 22px;
+    left: 106px;
+
+}
+
+#mid{
+    /* border: 2px solid green; */
+    border: 2px solid grey;
+    border-radius: 40px;
+    display: block;
+    width: 31%;
+    margin: auto;
+    position: relative;
+    top: 17px;
+}
+
+#right{
+    /* border: 2px solid yellow; */
+    display: inline;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+}
+
+.logo{
+    filter: invert(100%);
+    width: 50%;
+}
+
+
+#mid li{
+    display: inline;
+    list-style: none;
+}
+
+#mid li a{
+    display: inline-block;    
+    padding: 10px;
+    margin: 15px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+#mid li a:hover{
+    color: grey;
+}
+
+
+.btn{
+    margin: 10px;
+    background-color: black;
+    font-size: 17px;
+    border-radius: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn a:hover{
+    color: grey;
+}
+
+.forms{
+    position: absolute;
+    top: 176px;
+    left: 176px;
+    border: 2px solid grey;
+    border-radius: 17px;
+}
+
+.forms h2{
+    text-align: center;
+    margin-top: 34px;
+}
+
+.inputs{
+    margin: 3px 37px 3px 37px;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    width: 340px;
+    padding: 7px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#done{
+    color: white;
+    background-color: #ab9d9d;
+    text-align: center;
+    width: 357px;
+    margin-top: 10px;
+    margin-bottom: 34px;
+    cursor: pointer;
+}
